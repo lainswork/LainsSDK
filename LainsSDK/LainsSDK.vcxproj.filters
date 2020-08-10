@@ -13,14 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="内存加载dll">
+      <UniqueIdentifier>{a76b7a21-7644-4aeb-bd44-4c41a1d49bfe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MemoryLoadDll.cpp">
+      <Filter>内存加载dll</Filter>
+    </ClCompile>
+    <ClCompile Include="HardWare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLoadDll.h">
+      <Filter>内存加载dll</Filter>
+    </ClInclude>
+    <ClInclude Include="XorString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HardWare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
